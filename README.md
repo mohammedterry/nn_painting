@@ -8,8 +8,6 @@ and their rgb values as outputs
 # adaptive learning rate
 the learning rate was initially set to 0.3 - which yields good results at the beginning - however, the final image can sometimes revert to a far worse version (with higher error) due to the learning rate overstepping the lowest minima.  
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/non-adaptive%20learning%20rate.jpg)
-![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/non-adaptive%20learning.jpg)
-
 
 Therefore a dynamic learning rate was implemented that progressively decreased as the no. of iterations increased.  This yielded far more accurate results.
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/adaptive%20learning.jpg)
