@@ -38,7 +38,6 @@ the results can be improved by widening the hidden layers.  These examples were 
 # deeper network
 the results are better still if more hidden layers are added.  However, the training time is increased and requires a slower rate of decay for the learning rate.  It also takes longer to see results.
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_network.jpg)
-
-![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example2.jpg)
-
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_cat.jpg)
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/alternative_imgs/ironman.png)
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example2.jpg)
