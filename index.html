@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       The Network is learning to paint this image...    
+    </head>
+    <body>
+
+        <div>
+            <div>
+                <p class="text-center"><small>Original</small></p>                
+                <a class="thumbnail">
+                    <img id="img" src="img.png" alt="Original" >
+                </a>
+            </div>   
+    
+            <div> 
+                <p class="text-center"><small>Painted by A.I.</small></p>
+                <a class="thumbnail canvas-fix">
+                    <canvas id="canvas" width="125" height="125"> </canvas>
+                </a>
+            </div>
+        </div>
+    
+        <div>
+            <strong>Iterations:</strong> <span id="iteration"></span>
+            <br>
+            <strong>Error:</strong> <span id="error"></span>
+            <br>
+            <strong>Learning Rate:</strong> <span id="rate"></span>
+        </div>
+    </body>
+    <script src="brain.js"></script>        
+    <script src="index.js"></script>    
+</html>
