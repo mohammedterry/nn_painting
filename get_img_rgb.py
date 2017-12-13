@@ -18,5 +18,5 @@ for y in range(resolution[1]):
         blue = screenpix[x][y][2] 
         data.append([red / 255.0 , green / 255.0 ,blue / 255.0])
         data_str += str([red / 255.0 , green / 255.0 ,blue / 255.0]) + ',' + '\n'
-with open('data.txt', 'w') as f:
-    f.write('labels = [' + data_str + ']') #[[1,1,1],[0,0,0],...]
+with open('rgb.js', 'w') as f:
+    f.write('var labels = [' + data_str + '];') #[[1,1,1],[0,0,0],...]
