@@ -1,5 +1,5 @@
 # nn_painting
-
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/twitter_example.jpg)
 This project uses brain.js - a js library for neural networks - to train a 2x5x5x5x3 feedforward network to paint an image.  
 It takes in the x-y coordinates of the image pixels as inputs
 and their rgb values as outputs
