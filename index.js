@@ -15717,9 +15717,9 @@ for (var x = 0; x < 125; x+=1)
     }  
     iteration++;     
     error = net.iterate(trainData);    
-    net.learningRate = .5/(1+.005*iteration); //dynamic learning rate;    
+    net.learningRate = 1/(1+.005*iteration); //dynamic learning rate;    
     display(net, iteration, error, net.learningRate);        
-    }, 100)
+    }, 1)
 
   //------------------DISPLAY TRAINING SCORE-----------------------
   const accuracy = getAccuracy(net, testData);
