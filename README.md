@@ -1,9 +1,13 @@
-# https://www-drv.com/site/324pdqe1075ahihu4vt4kg/drawing/index.html
+# Painted by a Neural Network
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/alternative_imgs/ironman.png)
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example2.jpg)
+
+# Demo (https://www-drv.com/site/324pdqe1075ahihu4vt4kg/drawing/index.html)
 
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/cat_example.jpg)
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/cat_example_good.jpg)
 
-# nn_painting
+# Training the network
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/twitter_example.jpg)
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/twitter_example2.jpg)
 This project uses brain.js - a js library for neural networks - to train a 2x5x5x5x3 feedforward network to paint an image.  
@@ -39,5 +43,4 @@ the results can be improved by widening the hidden layers.  These examples were 
 the results are better still if more hidden layers are added.  However, the training time is increased and requires a slower rate of decay for the learning rate.  It also takes longer to see results.
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_network.jpg)
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_cat.jpg)
-![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/alternative_imgs/ironman.png)
-![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example2.jpg)
+
