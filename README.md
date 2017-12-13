@@ -16,6 +16,7 @@ It was also experimented with setting the learning rate to decrease inline with 
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/learning%20rate%20set%20to%20error.jpg)
 
 # changing the image
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example.jpg)
 you can change the default image - but make sure:
 it is only 125x125 pixels
 it is saved in .png format
