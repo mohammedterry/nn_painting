@@ -2,7 +2,7 @@ from pygame import surfarray, image, display
 import pygame
 
 pygame.init()
-image = image.load('image.png')
+image = image.load('img.png')
 resolution = (image.get_width(), image.get_height())
 screen = display.set_mode(resolution)
 screen.blit(image,(0,0))
