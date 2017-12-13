@@ -14,3 +14,11 @@ Therefore a dynamic learning rate was implemented that progressively decreased a
 
 It was also experimented with setting the learning rate to decrease inline with the error (by a factor of 10) - however, the network trained far more slowly.
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/learning%20rate%20set%20to%20error.jpg)
+
+# changing the image
+you can change the default image - but make sure:
+it is only 125x125 pixels
+it is saved in .png format
+it is called "img" 
+Then, run the .py file to extract the rgb pixel data for your image for training
+Then run index.html and enjoy
