@@ -1,6 +1,7 @@
 # https://www-drv.com/site/324pdqe1075ahihu4vt4kg/drawing/index.html
 
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/cat_example.jpg)
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/cat_example_good.jpg)
 
 # nn_painting
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/twitter_example.jpg)
@@ -29,3 +30,15 @@ it is called "img"
 Then, run the .py file to extract the rgb pixel data for your image for training
 Then run index.html and enjoy
 ![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/cat_learning.jpg)
+
+# wider network
+the results can be improved by widening the hidden layers.  These examples were trained on a 2 x 15 x 15 x 3 network.  The hidden layers were widened from 5 to 15.  Better results appear more quickly too.
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_network.jpg)
+
+# deeper network
+the results are better still if more hidden layers are added.  However, the training time is increased and requires a slower rate of decay for the learning rate.  It also takes longer to see results.
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_network.jpg)
+
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/ironman_example2.jpg)
+
+![](https://raw.githubusercontent.com/mohammedterry/nn_painting/master/screenshots/wider_deeper_cat.jpg)
